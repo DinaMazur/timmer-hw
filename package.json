@@ -1,0 +1,29 @@
+{
+  "name": "timmer-hw",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /timmer-hw/",
+    "deploy": "gh-pages -d dist ",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaMazur/timmer-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaMazur/timmer-hw/issues"
+  },
+  "homepage": "https://dinamazur.github.io/timmer-hw/",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.15.2"
+  },
+  "devDependencies": {
+    "posthtml-include": "^2.0.1"
+  }
+}
