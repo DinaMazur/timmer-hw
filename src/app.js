@@ -48,3 +48,6 @@ const timer = setInterval(() => {
 document.getElementById("startBtn").addEventListener("click", () => {
     setTimeout(() => alert("Час вийшов!"), document.getElementById("timeInput").value * 1000);
 });
+
+
+
